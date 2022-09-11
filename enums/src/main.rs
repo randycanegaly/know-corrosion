@@ -1,10 +1,10 @@
 fn main() {
     println!("Starting enums play.");
-    println!("A dog breed is: {:?}", DogBreed::Aussie);
+    //println!("A dog breed is: {:?}", DogBreed::Aussie);//To Do: Make this work
 
     let dog = DogBreed::Aussie;
     //let color = dog.get_color();
-    println!("Dog's color is {:?}", dog_color(dog));
+    //println!("Dog's color is {:?}", dog_color(dog));//To Do: Make this work
 
 
 
