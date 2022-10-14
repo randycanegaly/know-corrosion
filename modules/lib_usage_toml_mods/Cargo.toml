@@ -1,0 +1,17 @@
+[package]
+name = "lib_usage_toml_mods"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lib]
+name ="randy_lib" #this becomes the name of the library
+path = "src/lib.rs"
+
+
+[[bin]]
+name = "randy_bin" #this becomes the name of the binary
+path = "src/main.rs"
